@@ -1,7 +1,8 @@
 /***************************************************************
 README:
 Project: B669 Project 1
-Group Members: Harsh Savla (hsavla@indiana.edu), Sandeep Taduri
+Group Members: Harsh Savla (hsavla@indiana.edu)
+Description: This is a project where I model the data from a University library corpus in NoSQL databases:- Apache Cassandra and MongoDB. A bunch of queries is then run against these database and the performance of each query is documented in the attached report.
 ***************************************************************/
 
 1. Project requires Maven.
@@ -13,7 +14,7 @@ Group Members: Harsh Savla (hsavla@indiana.edu), Sandeep Taduri
 
 For Cassandra:
 1. There are 2 super column families and 1 standard column family which need to be created through CLI before inserting data into cassandra. 
-   The schema for these has been described in the report.
+The schema for these has been described in the report.
 
 2. The cluster name, column family names, configuration will need to be same as defined in the CassandraHelper class.
 
